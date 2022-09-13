@@ -44,9 +44,10 @@ return [
     | considered expired. If this value is null, personal access tokens do
     | not expire. This won't tweak the lifetime of first-party sessions.
     |
+    | 43800 means that tokens will been  expired when 30 days over.
     */
 
-    'expiration' => null,
+    'expiration' => 43800,
 
     /*
     |--------------------------------------------------------------------------
